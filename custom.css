@@ -1,0 +1,90 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+ 
+} 
+/*Utilty Classes*/  
+
+.img_responsive {
+    max-width: 100%;
+}
+
+.hero_image {
+    background: url(img1.jpeg) no-repeat ; 
+    height: 100vh; 
+    position: relative;  
+    background-position: center; 
+    background-size: cover;
+
+} 
+.hero_wrapper {
+    color: white; 
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*x und y koordinat*/
+} 
+.hero_wrapper h1 { 
+    font-size: 2.4rem;  
+    text-align: center;
+   
+}    
+.hero_wrapper p { 
+    font-size: 1.2rem;  
+    
+    font-family: "Times New Roman", Times, serif;
+}  
+.hero_wrapper span {
+    margin-left: 5rem;  
+    display: block;
+    margin-bottom: 1rem;  
+font-weight: bold;
+}
+
+.form_code {
+    text-align: center
+}
+
+.form_code .post_code {
+    display: block; 
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius: 2rem; 
+    padding: .6rem;
+    border: none; 
+    outline: none;
+
+} 
+.form_code button{
+    width: 40%; 
+    text-align: center;  
+    background-color: #00bab1; 
+    color: white; 
+    margin: 1rem auto 0rem;
+    padding: .6rem;
+    border: none; 
+    border-radius: .3rem; 
+} 
+/*Product Section*/ 
+.product{
+    width: 90%;   
+    margin-top: .3rem;
+    margin-left: auto; 
+    margin-right: auto; 
+} 
+.product_list_item {
+    float: left; 
+    width: 32%; 
+    margin-left: .5rem;
+} 
+.product_list_item :first-of-type {
+    margin-left: 0;
+} 
+
+@media screen and (max-width: 700px) { 
+
+    .product_list_item {
+   width: 100%; 
+   float: none;
+} 
+}
